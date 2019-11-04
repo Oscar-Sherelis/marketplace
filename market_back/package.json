@@ -1,0 +1,14 @@
+{
+  "name": "market_back",
+  "version": "1.0.0",
+  "description": "Marketplace for programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Marketplace"
+  ],
+  "author": "Oscar Sherelis and Artiom B.",
+  "license": "ISC"
+}
