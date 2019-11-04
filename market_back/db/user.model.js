@@ -23,7 +23,10 @@ const userSchema = new mongoose.Schema({
     },
     status: {
         type: String,
+    },
+    position: {
+        type: String
     }
 });
 
-mongoose.model('user', userSchema);
+mongoose.model('users', userSchema);
