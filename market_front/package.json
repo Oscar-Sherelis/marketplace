@@ -1,5 +1,5 @@
 {
-  "name": "market_front",
+  "name": "market_front2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,15 +18,13 @@
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-plugin-pwa": "^4.0.0",
-    "@vue/cli-plugin-typescript": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-standard": "^4.0.0",
-    "@vue/eslint-config-typescript": "^4.0.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "sass": "^1.19.0",
+    "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -36,12 +34,11 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "@vue/standard",
-      "@vue/typescript"
+      "@vue/standard"
     ],
     "rules": {},
     "parserOptions": {
-      "parser": "@typescript-eslint/parser"
+      "parser": "babel-eslint"
     }
   },
   "postcss": {
